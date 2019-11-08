@@ -175,7 +175,7 @@ var UIController = (function() {
         num = num.toFixed(2); //set decimal point
         numSplit = num.split(".");
         int = numSplit[0];
-        console.log(int);
+        // console.log(int);
         if (int.length > 3) {
             int =
                 int.substr(0, int.length - 3) +
